@@ -1,4 +1,4 @@
-# pdf_python
+# Tutorial FPDF - Python
 
 Tutorial de uma possível implementação da biblioteca FPDF do python.
 
