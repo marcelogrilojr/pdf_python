@@ -7,13 +7,13 @@ def gerandoPDF():
     pdf = FPDF() #Essa linha cria uma variável que vai armazenar as informações da função FPDF da bibliotec
     pdf.add_page() #Essa linha cria uma página em PDF, em branco ainda.
     pdf.set_font("Arial", size=20) #Essa linha é definida que os textos irão aparecer na fonte Arial e no tamanho de 20pt (lembra do word? igual.)
-    pdf.image('imagem.png', x = 85, y = None, w = 50, h = 50) # Essa linha é para adicionar uma imagem, é uma função, observe, abaixo vou explicar cada posiçõa:
+    pdf.image('imagem.png', x = None, y = None, w = 200, h = 200) # Essa linha é para adicionar uma imagem, é uma função, observe, abaixo vou explicar cada posiçõa:
     """
     'imagem.png' -> é o arquivo de imagem que você quer adicionar no seu PDF
-    x = 85 -> isso é o deslocamento na horizontal (para direita ou esquerda), se você colocar None a imagem vai ficar à esquerda.
+    x = None -> isso é o deslocamento na horizontal (para direita ou esquerda), se você colocar None a imagem vai ficar à esquerda.
     y = None -> isso é o deslocamento na vertical (de cima para baixo), se colocar None a imagem vai ficar no canto superior do PDF
-    w = 50 -> isso é a Width, ou Largura da imagem
-    h = 50 -> isso é a Height, ou altura da imagem
+    w = 200 -> isso é a Width, ou Largura da imagem
+    h = 200 -> isso é a Height, ou altura da imagem
 
     #OBS: O arquivo deve esta na mesma pasta onde você ta criando o seu código em python, observe se a imagem está aparecendo no explorador à esquerda no VScode.
     """
@@ -36,7 +36,7 @@ def gerandoPDF():
     align='L' é para o texto ficar alinhado à esquerda (LEFT)
     Tente entender porque foi usado o WHILE e como?
     """
-    pdf.image('outra_imagem.png', x = 70, y = None, w = 80, h = 30)
+    pdf.image('outra_imagem.png', x = None, y = None, w = 100, h = 50)
     #Na linha acima o que foi feito? Adicionado outra imagem depois do texto.
     pdf_name = "cupom.pdf" # aqui definimos o nome do arquivo que vai ser gerado
     pdf.output(pdf_name) #aqui o arquivo é criado na mesma pasta onde você está trabalhando.
