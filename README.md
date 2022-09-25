@@ -1,8 +1,9 @@
 # Tutorial FPDF - Python
 
-Tutorial de uma possível implementação da biblioteca FPDF do python.
+A imagem da SWIFT que pode ir no seu PDF do cupom fiscal pode ser baixada aqui, o arquivo é **swift.png**.
 
-Acesse (ou baixe) o arquivo **pdf.py** que está nessa pasta e tente entender as linhas de comando, foram adicionados comentários para ajudar.
+Também aqui, você vai encontrar um tutorial de uma possível implementação da biblioteca FPDF do python.
+Para isso, acesse (ou baixe) o arquivo **pdf.py** que está nessa pasta e tente entender as linhas de comando, foram adicionados comentários para ajudar.
 
 Dica que pode ser útil para os alunos do curso preparatório de Python da GerminaTECH.
 Para mais informações, acesse os links abaixo:
